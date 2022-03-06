@@ -1,0 +1,57 @@
+/* Variables */
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--light-gray);
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 25px;
+
+    background-color: white;
+    padding: 1rem;
+    width: 13vw;
+}
+
+.qrcode {
+  width: inherit;
+  border-radius: 25px;
+}
+
+p.title {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+p.secondary-title {
+  text-align: center;
+  font-weight: 400;
+  color: var(--grayish-blue);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
